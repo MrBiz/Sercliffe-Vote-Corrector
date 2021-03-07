@@ -6,7 +6,7 @@ def CorrectVote_function():
  RRRVotes = GetRRRVotes()
  CurrentVoteParty = GetCurrentVoteParty()
  CurrentVote =	GetCurrentVoteID()
- RRR_VoteCountPercent = $RRRVotes / $TotalVotes * 100
+ RRR_VoteCountPercent = RRRVotes / TotalVotes * 100
 
 try: 
 if CurrentVoteParty != 'RRR':
